@@ -1,0 +1,5 @@
+"use strict";var h=function(a,r){return function(){return r||a((r={exports:{}}).exports,r),r.exports}};var y=h(function(A,g){
+var f=require('@stdlib/array-base-assert-is-mostly-safe-data-type-cast/dist'),c=require('@stdlib/slice-base-normalize-slice/dist'),m=require('@stdlib/slice-base-length/dist'),d=require('@stdlib/array-dtype/dist'),q=require('@stdlib/blas-base-gcopy/dist').ndarray,o=require('@stdlib/error-tools-fmtprodmsg/dist');function w(a,r,v,p){var t,i,s,u,e,l,n;if(s=d(a)||"generic",u=d(r)||"generic",t=a.length,i=r.length,!f(s,u))throw new TypeError(o('nullF0',s,u));if(e=c(v,i,!0),e.code){if(p)throw new RangeError(o("invalid argument. Slice exceeds array bounds. Array length: %d.",i));e=c(v,i,!1)}if(n=m(e),t===1)l=0;else if(t===n)l=1;else throw new Error(o("invalid argument. Input array and the output array slice are broadcast incompatible. Array length: %u. Desired length: %u.",t,n));return q(n,a,l,0,r,e.step,e.start),r}g.exports=w
+});var b=y();module.exports=b;
+/** @license Apache-2.0 */
+//# sourceMappingURL=index.js.map
