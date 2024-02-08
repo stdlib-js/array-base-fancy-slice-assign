@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-base-fancy-slice-assign",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Assign element values from a broadcasted input array to corresponding elements in an output array.",
   "license": "Apache-2.0",
   "author": {
@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-assert-is-mostly-safe-data-type-cast": "github:stdlib-js/array-base-assert-is-mostly-safe-data-type-cast#main",
+    "@stdlib/array-base-assert-is-mostly-safe-data-type-cast": "^0.1.0",
     "@stdlib/array-dtype": "^0.1.0",
     "@stdlib/blas-base-gcopy": "^0.1.0",
     "@stdlib/slice-base-length": "^0.1.1",
