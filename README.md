@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import sliceAssign from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-fancy-slice-assign@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-fancy-slice-assign/tags). For example,
+
+```javascript
 import sliceAssign from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-fancy-slice-assign@v0.2.0-esm/index.mjs';
 ```
 
@@ -116,7 +121,7 @@ The function supports the following parameters:
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zero-to@esm/index.mjs';
 import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zeros@esm/index.mjs';
 import Slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@esm/index.mjs';
-import sliceAssign from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-fancy-slice-assign@v0.2.0-esm/index.mjs';
+import sliceAssign from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-fancy-slice-assign@esm/index.mjs';
 
 var x = zeroTo( 10, 'generic' );
 // returns [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
